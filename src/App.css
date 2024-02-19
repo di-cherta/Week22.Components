@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.card{
+  text-align: center;
+  width: 400px;
+  height: 600px;
+  margin: 1vw;
+  padding: 0px 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px dotted black;
+  border-radius: 10px;
+}
+.card-src{
+  width: 100%;
+}
+.Content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-characteristics{
+  list-style: none;
+  padding-left: 0px;
+}
+li{
+  padding: 2px;
+}
+h2{
+  width: 200px;
+  border: 1px solid rgb(223, 9, 9);
+  border-radius: 3px;
+  padding: 5px;
+}
